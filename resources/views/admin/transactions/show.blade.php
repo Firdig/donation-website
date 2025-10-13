@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-layouts.admin>
     <x-slot name="header">Detail Transaksi #{{ $transaction->id }}</x-slot>
     
     <div class="max-w-4xl mx-auto">
@@ -167,4 +167,4 @@
             }
         }
     </script>
-</x-app-layout>
+</x-layouts.admin>

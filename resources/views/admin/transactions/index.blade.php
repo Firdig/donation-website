@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-layouts.admin>
     <x-slot name="header">Kelola Transaksi</x-slot>
     
     <div class="mb-6">
@@ -140,4 +140,4 @@
             }
         }
     </script>
-</x-app-layout>
+</x-layouts.admin>
